@@ -1,0 +1,54 @@
+{
+  "_nota": "Dados inventados, apenas para demonstrar o modelo. Horas em HH:MM.",
+  "aula_minutos": 60,
+  "passo_minutos": 30,
+  "janela_dia": ["08:00", "20:00"],
+  "fim_preferido": "19:00",
+  "explicadora": {
+    "seg": [["14:00", "20:00"]],
+    "ter": [["08:00", "12:00"], ["17:00", "20:00"]],
+    "qua": [["08:00", "20:00"]],
+    "qui": [["17:00", "20:00"]],
+    "sex": [["15:00", "20:00"]]
+  },
+  "alunos": {
+    "Aluno A": {
+      "aulas_por_semana": 2,
+      "livre": {"seg": [["16:00", "19:00"]], "ter": [["14:00", "20:00"]], "qua": [["14:00", "18:00"]],
+                "qui": [["14:00", "20:00"]], "sex": [["16:00", "18:00"]]},
+      "combinado": [["ter", "18:00"], ["qui", "18:00"]]
+    },
+    "Aluno B": {
+      "aulas_por_semana": 1,
+      "livre": {"seg": [["16:00", "17:30"]], "ter": [["17:00", "19:00"]], "qua": [["14:00", "17:30"]],
+                "qui": [["17:00", "19:00"]]},
+      "combinado": [["qua", "16:00"]]
+    },
+    "Aluno C": {
+      "aulas_por_semana": 1,
+      "livre": {"seg": [["15:30", "20:00"]], "ter": [["15:30", "20:00"]], "qua": [["13:00", "20:00"]],
+                "qui": [["15:30", "20:00"]], "sex": [["15:30", "18:30"]]},
+      "combinado": []
+    },
+    "Aluno D": {
+      "aulas_por_semana": 1,
+      "livre": {"seg": [["16:00", "17:00"]], "qua": [["13:00", "17:00"]]},
+      "combinado": [["qua", "15:00"]]
+    },
+    "Aluno E": {
+      "aulas_por_semana": 1,
+      "livre": {"seg": [["15:00", "16:00"]]},
+      "combinado": [["seg", "15:00"]]
+    },
+    "Aluno F": {
+      "aulas_por_semana": 1,
+      "livre": {"seg": [["16:00", "17:00"]]},
+      "combinado": [["seg", "16:00"]]
+    },
+    "Aluno G": {
+      "aulas_por_semana": 1,
+      "livre": {"ter": [["17:00", "20:00"]], "sex": [["17:00", "20:00"]]},
+      "combinado": []
+    }
+  }
+}
